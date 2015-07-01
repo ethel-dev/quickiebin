@@ -1,0 +1,10 @@
+{
+    "name": "quickiebin",
+    "description": "a pastebin",
+    "authors": [
+        {
+            "name": "Ethan Arterberry",
+            "email": "ethanarterberry@gmail.com"
+        }
+    ]
+}
