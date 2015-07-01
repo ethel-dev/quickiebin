@@ -15,7 +15,6 @@
                     foreach (array_rand($seed, 5) as $k) $rand .= $seed[$k];
                     
                     $directory_self = str_replace(basename($_SERVER['PHP_SELF']), '', $_SERVER['PHP_SELF']); 
-                    $uploadsDirectory = $_SERVER['DOCUMENT_ROOT'] . $directory_self . '/files/'; 
                     $post = $_POST;
                     if ($post["code"] && $post["ext"]) {
                         $code = $post["code"];
