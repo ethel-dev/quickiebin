@@ -30,7 +30,7 @@
                     if(file_exists($uploadsDirectory . $file)) {
                         die("error uploading");
                     } else {
-                        file_put_contents("http://quickiebin.heroku.com/files/" . $file, $code);
+                        file_put_contents("files/" . $file, $code);
                         header("Location: http://quickiebin.heroku.com/files/" . $file); /* Redirect browser */
                         exit();
                     }
